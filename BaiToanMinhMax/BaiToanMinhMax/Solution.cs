@@ -42,9 +42,15 @@ namespace Unfairness
                     }
 
                 }
-
-
             }
+        }
+          public void Solve() {
+            this.Try(0);
+        }
+        public void PrintSolution() {
+            for (int i = 0; i < K.Count<int>(); i++)
+                Console.Write(K[i]+" ");
+            Console.WriteLine();
         }
     }
 }
