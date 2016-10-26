@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unfairness
+namespace Solution
 {
-    class ExhaustedSearh
+    class Solution
     {
         private int[] K;
         private int[] N;
 
 
 
-        public ExhaustedSearh(int[] arr, int k)
+        public TimKiem(int[] arr, int k)
         {
             N = arr;
             K = new int[k];
