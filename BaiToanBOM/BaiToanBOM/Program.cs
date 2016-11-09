@@ -18,8 +18,8 @@ namespace BaiToanBOM
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Vi du minh hoa Stack trong C#");
-            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("Bài toán Chuyển Bom");
+            Console.WriteLine("--------------------");
             SortedList ht = new SortedList();
             Stack stack = new Stack();
 
@@ -29,7 +29,7 @@ namespace BaiToanBOM
             stack.Push('7');
             stack.Push('3');
 
-            Console.WriteLine("Thung chua Bom ban dau la ");
+            Console.WriteLine("Thung chua Bom ban dau la :");
             foreach (char c in stack)
             {
                 Console.Write(c + " ");
