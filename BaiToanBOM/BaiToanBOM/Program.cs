@@ -36,19 +36,7 @@ namespace BaiToanBOM
             }
 
             Console.WriteLine();
-
-            Console.WriteLine("Cac tri trong myStack:\t");
-            InGiaTri(stack);
-            Console.WriteLine("\nDa day ra\t{0}", stack.Pop());
-            Console.WriteLine("Cac gia tri trong myStack:\t");
-            InGiaTri(stack);
-            Console.WriteLine("\nDa day ra\t{0}", stack.Pop());
-            Console.WriteLine("Cac gia tri trong myStack:\t");
-            InGiaTri(stack);
-            Console.WriteLine("Peek:\t{0}", stack.Peek());
-            Console.WriteLine("Cac gia tri trong myStack:\t");
-            InGiaTri(stack);
-            Console.ReadLine();
+            Console.Realine();
         }
     }
 }
